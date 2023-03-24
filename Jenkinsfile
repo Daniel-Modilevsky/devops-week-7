@@ -14,7 +14,6 @@ pipeline {
         }
         stage('Run python file') {
             steps {
-                cd 'cd /Users/modilevskydaniel/.jenkins/workspace/devops_lesson_7'
                 sh 'python3 hey.py'
             }
         }
